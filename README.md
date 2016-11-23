@@ -15,7 +15,7 @@ How to use ents_1, ents_2:
 1. Clean folder ( I start with a new folder for each set of EnTS calculations):
 
 !!! Do not run if you don't understand what is going on !!!
-
+```
 rm -r test/;
 rm -r recon/;
 rm or*;
@@ -24,9 +24,9 @@ rm seg*;
 rm wav*;
 rm rec*;
 rm file*;
-
+```
 2. Run this. It's the same as ents_1.py , but ents_1.py does not work. I have to figure out some silly thing I missed.
-
+```
 mkdir test recon;
 for f in ../folder/*.format;
 do
@@ -37,8 +37,8 @@ mv rec* recon/;
 rm -r sub*;
 rm -r or*;
 rm -r wav*;
-
-3. Run python ents_2.py
+```
+3. Run ```python ents_2.py```
 
 How to use automate1.py
 
